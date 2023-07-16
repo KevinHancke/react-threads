@@ -1,0 +1,194 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user_uid": "0x001",
+      "username": "Kevin Hancke",
+      "handle": "kev0dev",
+      "bio": "Former janitor at openai.com | Currently training ChatGPT on how to clone a cloned app",
+      "link": "https://github.com/kevinhancke",
+      "img": "https://images.pexels.com/photos/6388954/pexels-photo-6388954.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "instagram_url": "https://github.com/kevinhancke",
+      "followers": [
+        {
+          "user_uid": "0x002"
+        },
+        {
+          "user_uid": "0x003"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uid": "0x002",
+      "username": "Johnny jon johns",
+      "handle": "johnnyboy78",
+      "bio": "I love 0xKev",
+      "link": "https://github.com/kevinhancke",
+      "img": "https://images.pexels.com/photos/16949102/pexels-photo-16949102/free-photo-of-baby-boy-in-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "instagram_url": "https://github.com/kevinhancke",
+      "followers": [
+        {
+          "user_uid": "0x001"
+        },
+        {
+          "user_uid": "0x003"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user_uid": "0x003",
+      "username": "Real Elon",
+      "handle": "0xelon",
+      "bio": "0xKev is the goat and I am real Elon",
+      "link": "https://github.com/kevinhancke",
+      "img": "https://images.pexels.com/photos/6775241/pexels-photo-6775241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "instagram_url": "https://github.com/kevinhancke",
+      "followers": [
+        {
+          "user_uid": "0x001"
+        },
+        {
+          "user_uid": "0x002"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 1,
+      "timestamp": "Wed Jul 11 2023 20:46:12 GMT+0200 (South Africa Standard Time)",
+      "thread_from": "0x001",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello World!",
+      "likes": [
+        {
+          "user_uid": "0x002"
+        },
+        {
+          "user_uid": "0x003"
+        },
+        {
+          "user_uuid": "0x001"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Wed Jul 11 2023 21:46:12 GMT+0200 (South Africa Standard Time)",
+      "thread_from": "0x001",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "I am trying out this clone of threads, probably nothing! Did you know this is a clone of a clone? Cloneception lol, sue me.",
+      "likes": [
+        {
+          "user_uid": "0x002"
+        },
+        {
+          "user_uid": "0x003"
+        },
+        {
+          "user_uuid": "0x001"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "timestamp": "Wed Jul 11 2023 22:46:12 GMT+0200 (South Africa Standard Time)",
+      "thread_from": "0x001",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Whats the quickest way to build rapport as a Developer, wrong answers only!",
+      "likes": [
+        {}
+      ]
+    },
+    {
+      "id": 4,
+      "timestamp": "Wed Jul 11 2023 23:47:12 GMT+0200 (South Africa Standard Time)",
+      "thread_from": "0x002",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Whats the quickest way to build rapport as a Developer, wrong answers only!",
+      "likes": []
+    },
+    {
+      "id": 5,
+      "timestamp": "Wed Jul 11 2023 23:48:12 GMT+0200 (South Africa Standard Time)",
+      "thread_from": "0x001",
+      "thread_to": "0x002",
+      "reply_to": 3,
+      "text": "Just follow the link in my bio!",
+      "likes": []
+    },
+    {
+      "id": 6,
+      "timestamp": "Wed Jul 11 2023 23:49:12 GMT+0200 (South Africa Standard Time)",
+      "thread_from": "0x002",
+      "thread_to": "0x001",
+      "reply_to": 1,
+      "text": "Shread Shread! Lets Go! Pls sir send milk",
+      "likes": []
+    },
+    {
+      "timestamp": "2023-07-16T11:25:10.653Z",
+      "thread_from": "0x001",
+      "thread_to": "0x001",
+      "reply_to": 2,
+      "text": "This is my new post",
+      "likes": [],
+      "id": 7
+    },
+    {
+      "timestamp": "2023-07-16T19:53:04.913Z",
+      "thread_from": "0x001",
+      "thread_to": "0x001",
+      "reply_to": null,
+      "text": "Post",
+      "likes": [
+        {}
+      ],
+      "id": 8
+    },
+    {
+      "timestamp": "2023-07-16T19:53:34.857Z",
+      "thread_from": "0x001",
+      "thread_to": "0x001",
+      "reply_to": 1,
+      "text": "Go and buy your own milk johnnyboy",
+      "likes": [],
+      "id": 9
+    },
+    {
+      "timestamp": "2023-07-16T19:55:22.180Z",
+      "thread_from": "0x001",
+      "thread_to": "0x001",
+      "reply_to": null,
+      "text": "I want to make  new like",
+      "likes": [
+        {}
+      ],
+      "id": 10
+    },
+    {
+      "timestamp": "2023-07-16T19:56:51.676Z",
+      "thread_from": "0x001",
+      "thread_to": "0x001",
+      "reply_to": 1,
+      "text": "This is my post",
+      "likes": [],
+      "id": 11
+    },
+    {
+      "timestamp": "2023-07-16T19:57:14.452Z",
+      "thread_from": "0x001",
+      "thread_to": "0x001",
+      "reply_to": 11,
+      "text": "What happens if we post here",
+      "likes": [],
+      "id": 12
+    }
+  ]
+}
